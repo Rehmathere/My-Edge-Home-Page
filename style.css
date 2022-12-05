@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: orange; */
+}
+body{
+    background-color: rgb(233, 207, 197);
+}
+/* First */
+.first{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 2rem;
+    /* border: 2px solid black; */
+    display: flex;
+    width: 30vw;
+    /* padding: 50px; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 130px 500px;
+}
+.first img{
+    /* border: 2px solid black; */
+    width: 5vw;
+    height: 9vh;
+    margin: 20px 8px;
+}
+/* Second */
+.second{
+/* border: 2px solid black; */
+/* width: 40vw;
+height: 10vw; * */
+margin: 0px 280px;
+}
+.second .mmyy{
+    /* background-color: grey; */
+    width: 60vw;
+    height: 6vh;
+    border-radius: 30px;
+}
+/* Third */
+.third{
+/* border: 2px solid black; */
+display: flex;
+margin: 30px 308px;
+padding: 5px 5px;
+width: 55vw;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+#x{
+    color: black;
+}
+#a{
+    border-radius: 20px;
+    margin: 0px 15px;
+    /* border: 2px solid black; */
+    width: 7vw;
+    height: 12.5vh;
+    font-weight: bold;
+    text-align: center;
+}
+#a:hover{
+    background-color: rgb(185, 179, 179);
+}
+.third #a img{
+    border-radius: 10px;
+    margin: 6px 5px;
+    width: 6vw;
+    height: 8vh;
+    cursor: pointer;
+}
+/* Fourth */
+.fourth{
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 10px 308px;
+    padding: 5px 5px;
+    width: 55vw;
+    /* background-color: lightblue; */
+    
+}
+.fourth #a img{
+    border-radius: 10px;
+    margin: 06px 5px;
+    width: 6vw;
+    height: 8vh;
+    cursor: pointer;
+}
+#time{
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid black;
+    padding: 0.5rem;
+    width: 29vw;
+    border-radius: 20px;
+    font-weight: bold;
+    animation: rehmat;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+@keyframes rehmat {
+    30%{
+        background-color: lightblue;
+        color:darkblue;
+    }
+    60%{
+        background-color: lightgray;
+        color: darkred;
+    }
+}
+#time:hover{
+    box-shadow: 3px 3px 3px black;
+}
+.search{
+    text-align: center;
+    /* border: 2px solid black; */
+    width: 2vw;
+    position: absolute;
+    top: 385px;
+    left: 1160px;
+}
+.search i{
+    font-size: 30px;
+}
+/* Last */
+.last button{
+    font-weight: bold;
+    width: 5.5vw;
+    height: 4.2vh;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.last{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 21vw;
+    position: absolute;
+    top: 12px;
+    left: 1210px;
+}
+#z{
+    /* border: 2px solid black; */
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
